@@ -1,0 +1,557 @@
+/* CSS TO CHANGE ICON SIZE */
+.news {
+    font-size: .8em;
+    color: #ffe92f;
+    vertical-align: baseline;
+}
+
+/* CSS TO MODIFY THE LOOK/FEEL OF TOOLTIPS */
+.tooltip-inner {
+    min-width: 507px;
+    background-color: white;
+    border: solid 5px #B1B187;
+    text-align: left;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: #B1B187;
+    border-right-width: 20px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    margin-right: 0;
+    left: -10px;
+    margin-top: -10px;
+}
+
+.tooltip.in {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.pc_foot {
+    background-color: #1d7225;
+    height: 30px;
+    border-top: 2px solid #fff;
+}
+
+.close_btn {
+    float: right;
+    margin: 5px 5px 0 10px;
+}
+
+/* GENERAL PLAYER CARD CSS */
+.table-inner {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.tooltip-inner  a:link, .tooltip-inner a:visited {
+    color: #000;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* PLAYER CARD CSS */
+#pcMain {
+    width: 519px;
+    position: absolute;
+    z-index: 1;
+}
+
+#pcArrow {
+    position: absolute;
+    z-index: 2;
+}
+
+#pcTabs {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 304px;
+    width: 215px;
+}
+
+#pcTabs div {
+    display: inline;
+}
+
+#pcMain img {
+    vertical-align: bottom;
+}
+
+#pcBgMiddle {
+    height: 388px;
+    width: 519px;
+}
+
+#pcBorder, .pcBorder {
+    padding: 1px;
+    border: 1px solid #dfdfdf;
+    width: 240px;
+    float: left;
+    display: inline;
+}
+
+.pcBorder .table {
+    font-size: 7pt;
+    border: none;
+    width: 240px
+}
+
+#pc {
+    background: #fff;
+    border: 1px solid #fff;
+    width: 240px;
+    line-height: 14px;
+    font-size: 11px;
+}
+
+#pcName {
+    background: #e0e0a8;
+    height: 30px;
+    width: 235px;
+}
+
+#pcName td {
+    color: #fff;
+    font-size: 18px;
+    font-family: helvetica, arial, verdana, san-serif;
+    padding: 3px 0 0 5px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.pcTan {
+    background: #e0e0a8;
+}
+
+.pcBlue {
+    background: #1d7225;
+}
+
+.pcStatMainHead {
+    background: #1d7225;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px;
+    font-family: verdana, arial, helvetica;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    font-size: 9px;
+}
+
+.pcStatHead {
+    background-color: #6dbb75;
+    font-weight: bold;
+    color: #000;
+}
+
+#pcContent {
+    font-family: verdana, arial, helvetica;
+}
+
+#pcContent a:visited {
+    color: #000;
+}
+
+#pcPlayer {
+    padding: 5px;
+    width: 65px;
+    vertical-align: top;
+}
+
+#pcText {
+    padding: 5px 5px 5px 0;
+    width: 150px;
+}
+
+#pcHV {
+    background: #1d7225;
+    height: 19px;
+    color: #fff;
+    padding: 0 0 0 5px;
+    line-height: 17px;
+}
+
+#pcWeek {
+    background: #6dbb75;
+    height: 16px;
+    color: #000;
+    padding: 0 0 0 5px;
+    line-height: 15px;
+}
+
+#pcPoint {
+    background: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 18px;
+    font-family: helvetica, arial, san-serif;
+    vertical-align: middle;
+}
+
+.pcOdd {
+    background: #f8f8f2;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    color: #333;
+}
+
+.pcEven {
+    background: #f2f2e8;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    color: #333;
+}
+
+.pcTanRight {
+    border-right: 1px solid #fff;
+    font-size: 7pt;
+    padding: 0 3px 0 3px;
+}
+
+.pcRight {
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+#pcCloseBorder {
+    border: 2px solid #fff;
+}
+
+#pcClose {
+    background: #1d7225;
+    height: 30px;
+    width: 485px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#pcClose img {
+    float: right;
+    margin: 5px 5px 0 10px;
+}
+
+.pc a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.pcBlack a {
+    color: #000;
+    text-decoration: none;
+}
+
+.pcBlack a:hover {
+    color: #f00;
+    text-decoration: none;
+}
+
+.pcLink a:link {
+    color: #333;
+    text-decoration: underline;
+}
+
+.pcLink a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+.pcLink a:visited {
+    color: #333;
+    text-decoration: underline;
+}
+
+.pcLink a:visited:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+#pcNewsPlayerName {
+    font-family: helvetica, arial, verdana, san-serif;
+    background: #1d7225;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 5px 0 5px;
+    vertical-align: middle;
+}
+
+#pc .pvoTeamLogo {
+    vertical-align: middle;
+}
+
+#pc .pvoBreakdown {
+    vertical-align: top;
+}
+
+.ppc_league_status {
+    float: left;
+    padding-right: 4px;
+}
+
+.ppc_league_status a {
+    text-decoration: none !important;
+}
+
+/* BIG MUGSHOT DESIGN */
+.player-card-player-info {
+    width: 237px;
+    height: 143px;
+    overflow: hidden;
+    background: url(http://g.espncdn.com/s/flblm/11/images/playerpop/design2/player-card-mugshot-bg.png) repeat-x;
+    margin-bottom: 1px;
+}
+
+.player-card-player-info .player-name {
+    color: #1a1a1a;
+    font: bold 18px/21px arial, helvetica, sans-serif;
+    width: 237px;
+    padding: 3px 0 0 5px;
+}
+
+.player-card-player-info .parent {
+    position: relative;
+    width: 237px;
+    height: 120px;
+}
+
+.player-card-player-info .mugshot-frame {
+    width: 200px;
+    height: 119px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.player-card-player-info .mugshot {
+    left: -60px;
+    top: -7px;
+    position: absolute;
+}
+
+.player-card-player-info .team-logo {
+    top: 3px;
+    left: 44px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.12;
+}
+
+.player-card-player-info .ie-lt-8 .team-logo {
+    display: none;
+}
+
+.player-card-player-info .ie8 .team-logo {
+    filter: alpha(opacity=12);
+}
+
+.player-card-player-info .ie-overflow .mugshot-frame {
+    overflow: hidden;
+}
+
+.player-card-player-info .player-details-bg {
+    width: 150px;
+    height: 98px;
+    top: 5px;
+    left: 80px;
+    position: absolute;
+    opacity: 0.1;
+    background: #000;
+}
+
+.player-card-player-info .player-details {
+    width: 153px;
+    font: 10px Arial, Helvetica;
+    color: black;
+    top: 6px;
+    left: 83px;
+    position: absolute;
+    line-height: 15px;
+}
+
+/* OVERVIEW TABS */
+#overviewTabsHeader {
+    float: left;
+    width: 244px;
+}
+
+#overviewTabsHeader table {
+    margin: 0 0 0 -1px;
+    padding: 0 10px 0 0;
+    list-style: none;
+    width: 100%;
+}
+
+#overviewTabsHeader td {
+    background: #CECEC5;
+    float: left;
+    margin: 1px 1px 0 1px;
+    line-height: 4px;
+}
+
+#overviewTabsHeader a {
+    display: block;
+    padding: 7px 5px 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #868485;
+}
+
+#overviewTabsHeader .selected {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+/*    margin-bottom: 1px 1px -1px 1px;*/
+}
+
+#overviewTabsHeader .selected a {
+    color: #333;
+}
+
+/*NFL*/
+.logo-nfl-large {
+    background-image: url("http://a3.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-large-vert.png");
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+}
+
+.ie6 .logo-nfl-large {
+    background-image: url("http://a4.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-large-vert-ie6.png");
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+}
+
+.nfl-large-ari, .nfl-large-22 {
+    background-position: 0 0;
+}
+
+.nfl-large-atl, .nfl-large-1 {
+    background-position: 0 -100px;
+}
+
+.nfl-large-bal, .nfl-large-33 {
+    background-position: 0 -200px;
+}
+
+.nfl-large-buf, .nfl-large-2 {
+    background-position: 0 -300px;
+}
+
+.nfl-large-car, .nfl-large-29 {
+    background-position: 0 -400px;
+}
+
+.nfl-large-chi, .nfl-large-3 {
+    background-position: 0 -500px;
+}
+
+.nfl-large-cin, .nfl-large-4 {
+    background-position: 0 -600px;
+}
+
+.nfl-large-cle, .nfl-large-5 {
+    background-position: 0 -700px;
+}
+
+.nfl-large-dal, .nfl-large-6 {
+    background-position: 0 -800px;
+}
+
+.nfl-large-den, .nfl-large-7 {
+    background-position: 0 -900px;
+}
+
+.nfl-large-det, .nfl-large-8 {
+    background-position: 0 -1000px;
+}
+
+.nfl-large-gnb, .nfl-large-9 {
+    background-position: 0 -1100px;
+}
+
+.nfl-large-hou, .nfl-large-34 {
+    background-position: 0 -1200px;
+}
+
+.nfl-large-ind, .nfl-large-11 {
+    background-position: 0 -1300px;
+}
+
+.nfl-large-jac, .nfl-large-30 {
+    background-position: 0 -1400px;
+}
+
+.nfl-large-kan, .nfl-large-12 {
+    background-position: 0 -1500px;
+}
+
+.nfl-large-mia, .nfl-large-15 {
+    background-position: 0 -1600px;
+}
+
+.nfl-large-min, .nfl-large-16 {
+    background-position: 0 -1700px;
+}
+
+.nfl-large-nwe, .nfl-large-17 {
+    background-position: 0 -1800px;
+}
+
+.nfl-large-nor, .nfl-large-18 {
+    background-position: 0 -1900px;
+}
+
+.nfl-large-nyg, .nfl-large-19 {
+    background-position: 0 -2000px;
+}
+
+.nfl-large-nyj, .nfl-large-20 {
+    background-position: 0 -2100px;
+}
+
+.nfl-large-oak, .nfl-large-13 {
+    background-position: 0 -2200px;
+}
+
+.nfl-large-phi, .nfl-large-21 {
+    background-position: 0 -2300px;
+}
+
+.nfl-large-pit, .nfl-large-23 {
+    background-position: 0 -2400px;
+}
+
+.nfl-large-sdg, .nfl-large-24 {
+    background-position: 0 -2500px;
+}
+
+.nfl-large-sfo, .nfl-large-25 {
+    background-position: 0 -2600px;
+}
+
+.nfl-large-sea, .nfl-large-26 {
+    background-position: 0 -2700px;
+}
+
+.nfl-large-stl, .nfl-large-14 {
+    background-position: 0 -2800px;
+}
+
+.nfl-large-tam, .nfl-large-27 {
+    background-position: 0 -2900px;
+}
+
+.nfl-large-ten, .nfl-large-10 {
+    background-position: 0 -3000px;
+}
+
+.nfl-large-was, .nfl-large-28 {
+    background-position: 0 -3100px;
+}
