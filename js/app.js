@@ -8,7 +8,7 @@ $(function () {
         var id = $(this).attr('pid');
         var elem = $(this);
         $.ajax({
-            url: "http://games.espn.go.com/ffl/format/playerpop/overview?leagueId=337385&playerId=" + id + "&playerIdType=playerId&seasonId=2015",
+            url: "https://games.espn.go.com/ffl/format/playerpop/overview?leagueId=337385&playerId=" + id + "&playerIdType=playerId&seasonId=2015",
             success: function (result) {
                 result += '<div class="pc_foot"><img onclick="test();" src="../img/close.gif" width="71" height="20" border="0" alt="CLOSE" class="close_btn"></div>';
                 elem.attr('data-original-title', result);
